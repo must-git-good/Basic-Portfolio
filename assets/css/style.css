@@ -1,37 +1,71 @@
 
 .header {
-    color: #ffffff;
+    background-color: #ffffff;
+    height: 65px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 4px;
+}
+
+#headTitle {
     background-color: #4aaaa5;
     text-align: center;
-    height: 80px;
-    width: 400px;
+    height: 65px;
+    width: 350px;
+    float: left;
+}
+
+#headLinks{
+    background-color: #ffffff;
+    color: #777777;
+    float: right;
     font-size: 23px;
+    height:65px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .midBG {
-    background-image: "/assets/images/backgrounds/what-the-hex.png";
-    height: 600px;
+    background-image: url("what-the-hex.png");
+    background-repeat: repeat;
+
 }
 
 .midMain {
+    display: block;
+    text-align: left;
     background-color: #ffffff;
-    height: 600px;
-    width: 900px;
+    height: 450px;
+    float: center;
 }
 
 .footer {
     height: 75px;
     background-color: #666666;
-    font-size: 75%;
+    font-size: 80%;
     text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 10px;
+
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 23px;
+
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
+    color: #777777;
 }
 
