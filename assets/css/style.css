@@ -13,6 +13,7 @@
     height: 65px;
     width: 350px;
     float: left;
+    margin-left: 150px;
 }
 
 #headLinks{
@@ -22,31 +23,42 @@
     font-size: 23px;
     height:65px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-right: 150px;
 }
 
-
-.midBG {
+body{
     background-image: url("../images/backgrounds/what-the-hex.png");
     background-repeat: repeat;
     background-color: black;
-    height: 650px;
+
 }
+
+/* .midBG { */
+    /* background-image: url("../images/backgrounds/what-the-hex.png"); */
+    /* background-repeat: repeat; */
+    /* background-color: black; */
+    /* height: 650px; */
+/* } */
 
 
 
 .midMain {
         /* The border below is just for testing behavior, remove */
-    /* border: solid; */
-    /* border-color: #777777; */
-    /* border-width: 5px; */
-        /* */
+    border: solid;
+    border-color: #777777;
+    border-width: 5px;
+        /*  */
     display: block;
     text-align: left;
     background-color: #ffffff;
     height: 550px;
     width: 900px;
     float: center;
-    margin: 50px 300px 50px 300px;
+    padding-top: 0;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
 }
 
 .footer {
