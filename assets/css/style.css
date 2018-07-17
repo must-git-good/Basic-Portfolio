@@ -1,0 +1,37 @@
+
+.header {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    height: 80px;
+    width: 400px;
+    font-size: 23px;
+}
+
+.midBG {
+    background-image: "/assets/images/backgrounds/what-the-hex.png";
+    height: 600px;
+}
+
+.midMain {
+    background-color: #ffffff;
+    height: 600px;
+    width: 900px;
+}
+
+.footer {
+    height: 75px;
+    background-color: #666666;
+    font-size: 75%;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
