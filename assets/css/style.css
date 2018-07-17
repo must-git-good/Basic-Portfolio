@@ -24,18 +24,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.midBG {
-    background-image: url("what-the-hex.png");
-    background-repeat: repeat;
 
+.midBG {
+    background-image: url("../images/backgrounds/what-the-hex.png");
+    background-repeat: repeat;
+    background-color: black;
+    height: 650px;
 }
 
+
+
 .midMain {
+        /* The border below is just for testing behavior, remove */
+    /* border: solid; */
+    /* border-color: #777777; */
+    /* border-width: 5px; */
+        /* */
     display: block;
     text-align: left;
     background-color: #ffffff;
-    height: 450px;
+    height: 550px;
+    width: 900px;
     float: center;
+    margin: 50px 300px 50px 300px;
 }
 
 .footer {
@@ -48,7 +59,6 @@
     border-top-style: solid;
     border-top-color: #4aaaa5;
     border-top-width: 10px;
-
 }
 
 h1 {
@@ -59,8 +69,7 @@ h1 {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    font-size: 23px;
-
+    font-size: 28px;
 }
 
 p {
