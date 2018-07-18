@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 header {
     background-color: #ffffff;
     height: 105px;
@@ -40,15 +39,6 @@ body{
     background-color: black;
 }
 
-/* .midBG { */
-    /* background-image: url("../images/backgrounds/what-the-hex.png"); */
-    /* background-repeat: repeat; */
-    /* background-color: black; */
-    /* height: 650px; */
-/* } */
-
-
-
 .midMain {
     border: solid;
     border-color: #cccccc;
@@ -78,7 +68,6 @@ footer {
     border-top-width: 10px;
     padding-bottom: 10px;
     float: center;
-    /* margin-top: 25px; */
 }
 
 .footerWrap {
@@ -112,8 +101,22 @@ p {
 }
 
 .imgMyWork{
-    /* float: left; */
+    float:left;
     margin: 10px;
+    position: relative;
+}
+
+.imgLabel{
+    position: absolute;
+    top: 60%;
+    width: 180px;
+    height: 25px;
+    background-color:#4aaaa5; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-style: bold;
+    padding-top: 4px;
 }
 
 input{
@@ -123,5 +126,13 @@ input{
 
 textarea{
     width: 100%;
-    height: 200px;
+    height: 140px;
+}
+
+.cf {
+    clear:both;
+}
+
+#portFix{
+    margin: 20px;
 }
