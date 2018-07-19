@@ -1,10 +1,18 @@
 /* I'll try to include notation, but the main project now is all about cleaning up this code and making it easier to follow. And adding shinies. Hopefully I don't break anything. (Too late, but we're fixing it). */
 
+
+
+
+/* --------------------------------------Site-wide functional stuff ---------------------------------- */
 * {
     box-sizing: border-box;
 }
+.cf {
+    clear:both;
+}
 
-        /* HEADER STUFF */
+
+/* ---------------------------------------- HEADER STUFF --------------------------------------------- */
 header {
     background-color: #ffffff;
     height: 100px;
@@ -12,7 +20,6 @@ header {
     border-bottom-color: #cccccc;
     border-bottom-width: 5px;
 }
-
 #headTitle {
     background-color: #4aaaa5;
     text-align: center;
@@ -23,7 +30,6 @@ header {
     padding-top: 27px;
     overflow: auto;
 }
-
 #headLinks{
     background-color: #ffffff;
     color: #777777;
@@ -34,17 +40,13 @@ header {
     margin-right: 15%;
     overflow: auto;
 }
-
-/* Screwing with some hover behavior, forget doing here for now, try on the other page. */
-#l1,l2,l3:hover{
-    color: #4aaaa5;
+/* This command was being over-written somehow, regardless of placement, without the important tag. So leaving for now, I'll try to remove the conflict and remove it when possible. */
+#linkAbout:hover,#linkPortfolio:hover,#linkContact:hover{
+    color: #4aaaa5 !important;
 }
 
-/* #headLinks:hover{
-    color: #4aaaa5;
-} */
 
-        /* MAIN BODY styles and placement. */
+/* -----------------------------------MAIN BODY styles and placement-------------------------------------- */
 body{
     background-image: url("../images/backgrounds/what-the-hex.png");
     background-repeat: repeat;
@@ -60,14 +62,15 @@ body{
     background-color: #ffffff;
     height: 90%;
     width: auto;
-    /* padding-top: 0; */
     margin-top: 35px;
     margin-right: 15%;
     margin-bottom: 35px;
     margin-left: 15%;
     overflow: auto;
 }
-        /* FOOTER STUFF */
+
+
+/* -------------------------------------- FOOTER STUFF ------------------------------------------------- */
 footer {
     height: 75px;
     background-color: #666666;
@@ -81,20 +84,19 @@ footer {
     padding-bottom: 10px;
     float: center;
 }
-
 .footerWrap {
     min-height: calc(100vh - 110px);
     min-width: 940px;
 }
 
-        /* Element Styling...maybe move this to its own css file? */
+
+/* -------------------------- Element Styling...maybe eventually move this to its own css file? ------------ */
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     font-style: bold;
     font-size: 32px;
 }
-
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -107,7 +109,6 @@ h2 {
     border-bottom-width: 3px;
     margin: 30px;
 }
-
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
@@ -116,13 +117,14 @@ p {
     padding-right: 30px;
     line-height: 140%;
 }
-        /* PORTFOLIO page specific stuff */
+
+
+/* ---------------------------------------- PORTFOLIO page specific stuff --------------------------------- */
 .imgMyWork{
     float:left;
     margin: 10px;
     position: relative;
 }
-
 .imgLabel{
     position: absolute;
     bottom: 15%;
@@ -135,15 +137,17 @@ p {
     font-style: bold;
     padding-top: 14px;
 }
-
-.imgLabel:hover{
+Label:hover{
     opacity: .5;
     border: solid;
     border-color: #cccccc;
     border-width: 3px;
+    
 }
-
-        /* CONTACT page specific stuff */
+#portFix{
+    margin: 20px;
+}
+/* ---------------------------------------- CONTACT page specific stuff ----------------------------------- */
 input{
     width: 100%;
 }
@@ -166,24 +170,8 @@ textarea{
     height: 300%;
     line-height: 100%;
 }
-        /* ------------------ */
 
-        /* Miscellaneous, maybe place with other stuff */
-.cf {
-    clear:both;
-}
 
-#portFix{
-    margin: 20px;
-}
+/* --------------------------End. Add new code here that still needs review/testing ----------------------- */
 
-/* Trying this at the end, in case it wasn't over-riding. It was over-riding, so I'm using the important command. I'll figure out why and then remove these */
-#linkAbout:hover{
-    color: #4aaaa5 !important;
-}
-#linkPortfolio:hover{
-    color: #4aaaa5 !important;
-}
-#linkContact:hover{
-    color: #4aaaa5 !important;
-}
+
