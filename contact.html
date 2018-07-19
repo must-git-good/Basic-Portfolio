@@ -2,6 +2,8 @@
 <html lang="en-US">
     <head>
         <title>My Portfolio</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
@@ -23,15 +25,17 @@
             <div class ="midMain">
             <h2>Contact</h2>
                 <p title="Here's a bit about me.">
-                        <form>
+                            <!-- Haven't tested form funtion, but it won't work presumably until this goes 'live', so try to test then. Whether 'text area gets included is my main concern.-->
+                        <form class="form" action="https://formspree.io/kenny.fickling@gmail.com"
+                        method="POST">
                             <p>
-                            Name:<br>
-                            <input type="text"  name="Your Full Name"><br><br>
-                            Email:<br>
-                            <input type="text" name="Email Address"><br><br>
-                            Message:<br>
-                            <textarea></textarea><br>
-                            <input type="submit" value="Get in touch..."><br><br>
+                            Name:
+                            <input type="text"  name="Your Full Name">
+                            Email:
+                            <input type="email" name="_replyto">
+                            Message:
+                            <textarea type="textarea" name="Message Body"></textarea><br>
+                            <input id="submitButton" type="submit" value="Send"><br><br>
                             </p>
                         </form>
 
