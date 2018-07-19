@@ -1,4 +1,4 @@
-/* I'll try to include notation, but the main project now is all about cleaning up this code and making it easier to follow. Hopefully I don't break anything. */
+/* I'll try to include notation, but the main project now is all about cleaning up this code and making it easier to follow. And adding shinies. Hopefully I don't break anything. (Too late, but we're fixing it). */
 
 * {
     box-sizing: border-box;
@@ -34,6 +34,16 @@ header {
     margin-right: 15%;
     overflow: auto;
 }
+
+/* Screwing with some hover behavior, forget doing here for now, try on the other page. */
+#l1,l2,l3:hover{
+    color: #4aaaa5;
+}
+
+/* #headLinks:hover{
+    color: #4aaaa5;
+} */
+
         /* MAIN BODY styles and placement. */
 body{
     background-image: url("../images/backgrounds/what-the-hex.png");
@@ -115,16 +125,24 @@ p {
 
 .imgLabel{
     position: absolute;
-    top: 60%;
+    bottom: 15%;
     width: 180px;
-    height: 25px;
+    height: 50px;
     background-color:#4aaaa5; 
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     font-style: bold;
-    padding-top: 4px;
+    padding-top: 14px;
 }
+
+.imgLabel:hover{
+    opacity: .5;
+    border: solid;
+    border-color: #cccccc;
+    border-width: 3px;
+}
+
         /* CONTACT page specific stuff */
 input{
     width: 100%;
@@ -157,4 +175,15 @@ textarea{
 
 #portFix{
     margin: 20px;
+}
+
+/* Trying this at the end, in case it wasn't over-riding. It was over-riding, so I'm using the important command. I'll figure out why and then remove these */
+#linkAbout:hover{
+    color: #4aaaa5 !important;
+}
+#linkPortfolio:hover{
+    color: #4aaaa5 !important;
+}
+#linkContact:hover{
+    color: #4aaaa5 !important;
 }
