@@ -94,14 +94,14 @@ footer {
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
-    font-style: bold;
+    font-weight: bold;
     font-size: 32px;
 }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-size: 28px;
-    font-style: bold;
+    font-weight: bold;
     padding-bottom: 20px;
     padding-left:4px;
     border-bottom-style: solid;
