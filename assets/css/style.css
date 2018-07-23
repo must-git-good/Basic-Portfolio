@@ -1,5 +1,3 @@
-/* I'll try to include notation, but the main project now is all about cleaning up this code and making it easier to follow. And adding shinies. Hopefully I don't break anything. (Too late, but we're fixing it). */
-
 
 
 
@@ -44,6 +42,19 @@ header {
 #linkAbout:hover,#linkPortfolio:hover,#linkContact:hover{
     color: #4aaaa5 !important;
 }
+
+/* ----------------------------------------- ABOUT PAGE specific ------------------------------------------- */
+
+
+#bioFace{
+    width: 140px; 
+    padding-top:0;
+    padding-right:15px;
+    padding-bottom:0px;
+    padding-left:0px;
+    float: left;
+}
+
 
 
 /* -----------------------------------MAIN BODY styles and placement-------------------------------------- */
